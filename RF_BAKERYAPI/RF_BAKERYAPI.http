@@ -1,0 +1,6 @@
+@RF_BAKERYAPI_HostAddress = http://localhost:5178
+
+GET {{RF_BAKERYAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

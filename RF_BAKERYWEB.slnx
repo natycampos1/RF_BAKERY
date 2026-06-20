@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RF_BAKERYAPI/RF_BAKERYAPI.csproj" />
+  <Project Path="RF_BAKERYWEB/RF_BAKERYWEB.csproj" />
+</Solution>
