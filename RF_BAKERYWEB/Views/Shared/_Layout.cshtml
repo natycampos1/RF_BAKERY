@@ -1,8 +1,4 @@
-﻿@{
-    var nombre = Context.Session.GetString("Nombre");
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -70,7 +66,7 @@
                                          style="width:36px;height:36px;min-width:36px;">
                                         <i class="ti ti-user text-white"></i>
                                     </div>
-                                    <span class="d-none d-md-block fw-semibold">@nombre</span>
+                                    <span class="d-none d-md-block fw-semibold">Usuario</span>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                                     <a asp-controller="Home" asp-action="Perfil" class="dropdown-item d-flex align-items-center gap-2">
